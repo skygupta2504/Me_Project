@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files and output files
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Binaries
+*.out
+*.exe
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Production build directory (if applicable)
+dist/
+build/
+
+# Miscellaneous
+.DS_Store           # macOS-specific hidden file
+.idea/              # JetBrains IDE configuration files
+.vscode/            # Visual Studio Code configuration files
+*.lock              # Lock files (e.g., package-lock.json, yarn.lock, etc.)
+
+# MongoDB local database files (if applicable)
+/data/db
+
+# Temporary files created by debugging tools
+debug.log
+
+# Specific logs from running the server
+*.log
